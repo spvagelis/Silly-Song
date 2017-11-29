@@ -65,6 +65,9 @@ class ViewController: UIViewController {
             let substring = myName.suffix(from: startIndex)
             
             correctName = String(substring)
+        } else {
+            
+            correctName = myName
         }
         
         return correctName
